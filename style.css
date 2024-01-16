@@ -1,0 +1,96 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.link-sinopse {
+    background-color: rgb(36, 176, 20);
+}
+
+.link-critica {
+    background-color: rgb(214, 69, 69);
+}
+
+.link-personagens {
+    background-color: rgb(48, 118, 240);
+}
+
+.img1 {
+    margin-left: 50px;
+    align-content: center;
+    justify-content: center;
+    width: 80%;
+}
+
+#sinopseSection {
+    background-color: #b1ccae;
+}
+
+#criticaSection {
+    background-color: rgb(195, 111, 111);}
+
+#sinopseSection {
+    background-color: #b1ccae;
+}
+
+#personagensSection {
+    background-color: rgb(144, 183, 250);
+}
+
+
+.title-critica, .title-sinopse, .title-personagens {
+    text-decoration: underline;
+}
+
+
+
+button {
+    background-color: #555;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+section {
+    display: none;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.personagem {
+    margin-bottom: 20px;
+}
+
+.personagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h3 {
+    color: #333;
+}
+
